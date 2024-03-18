@@ -8,9 +8,11 @@ How to access ? 🧐
 https://localhost:PORT/api/v1/blog
 
 (for id specific CRUD operations) (update blog,get blog,delete blog)
+
 https://localhost:PORT/api/v1/blog/:id
 
 //PRE-DEFINED-ROUTES 🧭
+
 https://localhost:PORT/api/v1/blog/top-five-liked 
 
 https://localhost:PORT/api/v1/blog/top-five-recent
