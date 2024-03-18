@@ -6,11 +6,15 @@ On top of that has some already pre-defined routes (we will get to that later)
 
 How to access ? 🧐
 https://localhost:PORT/api/v1/blog
-https://localhost:PORT/api/v1/blog/:id (for id specific CRUD operations) (update blog,get blog,delete blog)
+
+(for id specific CRUD operations) (update blog,get blog,delete blog)
+https://localhost:PORT/api/v1/blog/:id
 
 //PRE-DEFINED-ROUTES 🧭
 https://localhost:PORT/api/v1/blog/top-five-liked 
+
 https://localhost:PORT/api/v1/blog/top-five-recent
+
 https://localhost:PORT/api/v1/blog/similar-blogs
 
 what can u expect:
