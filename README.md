@@ -20,18 +20,28 @@ https://localhost:PORT/api/v1/blog/similar-blogs
 what can u expect:
 {
     "status": "success",
+    
     "results": 1,
+    
     "blogs": [
         {
             "_id": "65f7ef786ef212970c61a223",
+            
             "title": "This is test blog 11",
+           
             "blog": "bla bla goo goo bla bla goo goo",
+            
             "createdAt": "2024-03-18T07:38:27.423Z",
+            
             "likes": 0,
+            
             "tags": [
+            
                 "Cooking",
+                
                 "Lifestyle"
             ],
+            
             "slug": "This-is-test-blog-11"
         },
 }
