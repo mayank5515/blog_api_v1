@@ -4,6 +4,7 @@ const blogController = require("../controllers/blogController");
 const router = express.Router();
 
 //aliasing
+//
 router
   .route("/top-five-liked")
   .get(blogController.aliasTopFiveLiked, blogController.getAllBlogs);
@@ -12,6 +13,8 @@ router
   .get(blogController.alistTopFiveRecent, blogController.getAllBlogs);
 router.route("/blog-stats").get(blogController.blogStats);
 router.route("/similar-blogs").get(blogController.similarBlogs);
+//
+//ROUTES
 router
   .route("/")
   .get(blogController.getAllBlogs)
